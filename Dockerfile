@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER yaswanthvarma483@gmail.com
 RUN apt-get update
-RUN apt-get install apache2-bin -y
+RUN apt-get install apache2 -y
 CMD ["ping", "google.com"]
  
 # FROM  centos:latest
